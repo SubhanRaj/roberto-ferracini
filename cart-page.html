@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Roberto Ferracini – Fashion and Clothing Shop Template</title>
+    <!-- favicon -->
+    <link rel=icon href=favicon.png sizes="20x20" type="image/png">
+    <!-- animate -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- flaticon -->
+    <link rel="stylesheet" href="assets/css/linearicons.css">
+    <!-- Themify icon -->
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+
+    <link rel="stylesheet" href="assets/css/jquery.datetimepicker.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+     <!-- responsive Stylesheet -->
+     <link rel="stylesheet" href="assets/css/responsive.css">
+      
+
+</head>
+
+<body class="cart-page common-typography">
+    <!-- preloader area start -->
+<div class="preloader" id="preloader">
+    <div class="preloader-inner">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+</div>
+<!-- preloader area end -->
+
+<!-- search Popup -->
+<div class="body-overlay" id="body-overlay"></div>
+<div class="search-popup" id="search-popup">
+    <form action="https://zwin.io/html/roberto-ferracini/index.html" class="search-form">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Here'" required>
+        </div>
+        <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
+    </form>
+</div>
+<!-- //. search Popup -->
+
+<!-- cart-popup-starts -->
+<div class="cart-popup" id="cart-popup">
+    <div class="cart-content">
+        <span class="cross-icon"><i class="lnr lnr-cross"></i></span>
+        <div class="cart-title text-center">
+            <h2>Cart</h2>
+            <h6 class="text-right">3 Items</h6>
+        </div>
+
+        <div class="cart-items">
+
+            <div class="single-item-function-1">
+                <div class="single-item d-flex justify-content-between mb-4">
+                    <div class="item-left d-flex">
+                        <div class="item-image image-1"></div>
+                        <div class="item-name align-self-center">
+                            <h6>Pink Dress</h6>
+                        </div>
+                    </div>
+                    <div class="item-right d-flex align-items-center">
+                        <div class="item-price">
+                            <h6>$ 13</h6>
+                        </div>
+                        <div class="item-icon trash-icon-1">
+                            <i class="fa fa-trash-o"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-item-function-2">
+                <div class="single-item d-flex justify-content-between mb-4">
+                    <div class="item-left d-flex">
+                        <div class="item-image image-2"></div>
+                        <div class="item-name align-self-center">
+                            <h6>Black Heel</h6>
+                        </div>
+                    </div>
+                    <div class="item-right d-flex align-items-center">
+                        <div class="item-price">
+                            <h6>$ 13</h6>
+                        </div>
+                        <div class="item-icon trash-icon-2">
+                            <i class="fa fa-trash-o"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-item-function-3">
+                <div class="single-item d-flex justify-content-between">
+                    <div class="item-left d-flex">
+                        <div class="item-image image-3"></div>
+                        <div class="item-name align-self-center">
+                            <h6>Brown Bag</h6>
+                        </div>
+                    </div>
+                    <div class="item-right d-flex align-items-center">
+                        <div class="item-price">
+                            <h6>$ 13</h6>
+                        </div>
+                        <div class="item-icon trash-icon-3">
+                            <i class="fa fa-trash-o"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="total-price text-right">
+            <h4>Total</h4>
+            <h3>$ 158,00</h3>
+        </div>
+
+        <div class="cart-buttons mt-4 mt-xl-5">
+            <a href="#" class="template-btn2 off2 mb-4">View Cart <span>&rharu;</span></a>
+            <a href="#" class="template-btn2 off1">Checkout <span>&rharu;</span></a>
+        </div>
+    </div>
+</div>
+<!-- cart-popup-end -->
+
+<!-- Login PopUp Starts -->
+<div class="login-popup">
+
+    <div class="login-content">
+        <span class="cross-icon"><i class="lnr lnr-cross"></i></span>
+        <div class="cart-title text-center">
+            <h2>Login</h2>
+        </div>
+
+        <form action="#">
+            <div class="input-group mb-40">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope-o"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Ferracini@example.com" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon2"><i class="fa fa-lock"></i></span>
+                </div>
+                <input type="password" class="form-control" placeholder="**********" aria-label="password" aria-describedby="basic-addon2">
+            </div>
+            <div class="text-right">
+                <a href="#" class="when-click-forgot-password">Forgot Password?</a>
+            </div>
+            <button type="submit" class="template-btn2 mt-5">Login <span>&rharu;</span></button>
+        </form>
+
+        <div class="login-bottom text-center">
+            <p>You don’t have an account? <a href="#" class="when-click-signup">Sign up</a></p>
+        </div>
+    </div>
+
+    <div class="signup-content">
+        <span class="cross-icon"><i class="lnr lnr-cross"></i></span>
+        <div class="cart-title text-center">
+            <h2>Sign Up</h2>
+        </div>
+
+        <form action="#">
+            <div class="input-group mb-4">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-user-o"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Enter Username">
+            </div>
+            <div class="input-group mb-4">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" ><i class="fa fa-envelope-o"></i></span>
+                </div>
+                <input type="email" class="form-control" placeholder="Enter Email">
+            </div>
+            <div class="input-group mb-4">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                </div>
+                <input type="password" class="form-control" placeholder="Create Password">
+            </div>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                </div>
+                <input type="password" class="form-control" placeholder="Confirm Password">
+            </div>
+
+            <div class="check-option mt-5">
+                <input type="checkbox" id="checkbox" class="mb-3"/>
+                <label for="checkbox" class="ml-3">Accept Terms & Conditions</label> <br>
+
+                <input type="checkbox" id="checkbox2" />
+                <label for="checkbox2" class="ml-3">Yes, I’d love to receive emails with great content And updates</label>
+            </div>
+
+            <button type="submit" class="template-btn2 mt-5">Sign Up <span>&rharu;</span></button>
+            <button type="submit" class="template-btn2 on2">Login with Gmail <span>&rharu;</span></button>
+        </form>
+
+        <div class="login-bottom text-center">
+            <p>You don’t have an account? <a href="#" class="when-click-login">Login </a></p>
+        </div>
+    </div>
+
+    <div class="forgot-password-content">
+        <span class="cross-icon"><i class="lnr lnr-cross"></i></span>
+        <div class="cart-title text-center">
+            <h2>Forgot Password</h2>
+        </div>
+
+        <form action="#">
+            <div class="input-group mb-4">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon3"><i class="fa fa-envelope-o"></i></span>
+                </div>
+                <input type="email" class="form-control" placeholder="Enter Email Address" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            
+            <button type="submit" class="template-btn2">Send <span>&rharu;</span></button>
+        </form>
+
+        <div class="forgot-password-bottom text-center mt-4">
+            <p>We have send a link to reset your password to the above <br>email address. Please verify.</p>
+        </div>
+    </div>
+</div>
+<!-- Login PopUp End -->
+
+<!-- navbar area starts -->
+<nav class="navbar navbar-area navbar-expand-lg nav-style-02 nav-absolute">
+    <div class="container-fluid nav-container">
+        <div class="responsive-mobile-menu">
+            <div class="logo-wrapper">
+                <a href="index-2.html" class="logo">
+                    <img src="assets/img/logo/logo.png" alt="logo">
+                    <h4>robarto <br>ferracini</h4>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bizcoxx_main_menu" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bizcoxx_main_menu">
+            <ul class="navbar-nav">
+                <li class="menu-item-has-children current-menu-item">
+                    <a href="#">Home</a>
+                    <ul class="sub-menu">
+                        <li><a href="index-2.html">Home 01</a></li>
+                        <li><a href="index-3.html">Home 02</a></li>
+                        <li><a href="index-4.html">Home 03</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children">
+                    <a href="#">New Arrivals</a>
+                    <ul class="sub-menu">
+                        <li><a href="shop-page.html">Shop</a>
+                            <ul class="sub-menu">
+                                <li><a href="shop-page-1.html">Shop 01</a></li>
+                                <li><a href="shop-page-2.html">Shop 02</a></li>
+                                <li><a href="shop-page-3.html">Shop 03</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children mega-menu-list">
+                    <a href="#">Pages</a>
+                    <div class="mega-menu">
+                        <ul class="mega-menu-inner">
+                            <li><a href="about-page.html">About us</a></li>
+                            <li><a href="cart-page.html">Cart page</a></li>
+                            <li><a href="cart-tab-page.html">Cart Tab</a></li>
+                            <li><a href="blog-page-02.html">Blog page 01</a></li>
+                        </ul>
+                        <ul class="mega-menu-inner">
+                            <li><a href="blog-page.html">Blog page 02</a></li>
+                            <li><a href="blog-single-page-02.html">Blog Single 01</a></li>
+                            <li><a href="blog-single-page.html">Blog Single 02</a></li>
+                            <li><a href="faq-page.html">FAQ page</a></li>
+                        </ul>
+                        <ul class="mega-menu-inner">
+                            <li><a href="profile-page.html">Profile page</a></li>
+                            <li><a href="returns-page.html">Return page</a></li>
+                            <li><a href="404.html">404 page</a></li>
+                            <li><a href="coming-soon-page.html">Comming Soon</a></li>
+                        </ul>
+                        <ul class="mega-menu-inner">
+                            <li>
+                                <img src="assets/img/header-page/mega-menu.jpg" alt="">
+                                <h5>Extra 10% off</h5>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="contact-us-page.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right-content">
+            <ul>
+                <li class="search" id="search">
+                    <span class="lnr lnr-magnifier"></span>
+                </li>
+                <li class="ml-3 floating-icon-3 user">
+                    <span class="lnr lnr-user"></span>
+                </li>
+                <li class="cart floating-icon-1 ml-4">
+                    <div class="cart-sec">
+                        <a href="#"><span class="lnr lnr-cart"></span></a>
+                        <span class="cart-count">2</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- navbar area end -->
+
+<!-- Banner Starts -->
+<section class="cart-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 align-self-end order-2 order-lg-1">
+                <div class="cart-banner-left">
+                    <div class="left-title mb-5">
+                        <h3>Summer Collection</h3>
+                        <h4>Velvet Red Dress</h4>
+                    </div>
+                    <div class="price mb-5">
+                        <h2>$90,00</h2>
+                    </div>
+                    <div class="color mb-5">
+                        <h4>Color</h4>
+                        <ul class="mt-3">
+                            <li class="active"><span class="color1"></span></li>
+                            <li><span class="color2"></span></li>
+                            <li><span class="color3"></span></li>
+                            <li><span class="color4"></span></li>
+                        </ul>
+                    </div>
+                    <div class="size mb-5">
+                        <h4>Select your size</h4>
+                        <ul>
+                            <li><span>xs</span></li>
+                            <li><span>s</span></li>
+                            <li><span>m</span></li>
+                            <li><span>L</span></li>
+                        </ul>
+                    </div>
+                    <div class="quantity mb-5">
+                        <h4>Quantity</h4>
+                        <ul>
+                            <li><span><i class="ti-minus"></i></span></li>
+                            <li><span>4</span></li>
+                            <li><span><i class="ti-plus"></i></span></li>
+                        </ul>
+                    </div>
+                    <div class="left-image d-flex small-slider">
+                        <div class="image image-1 mr-4">
+                            <div class="hover-state">
+                                <a href="assets/img/cart-page/banner-bg.png"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                        <div class="image image-2 mr-4">
+                            <div class="hover-state">
+                                <a href="assets/img/cart-page/banner-bg2.png"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                        <div class="image image-3">
+                            <div class="hover-state">
+                                <a href="assets/img/cart-page/banner-bg3.png"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 order-1 order-lg-2">
+                <div class="banner-image big-slider">
+                    <div class="cart-page-banner-bg"></div>
+                </div>
+            </div>
+            <div class="col-lg-5 align-self-center order-3">
+                <div class="banner-right mb-5">
+                    <div class="right-top">
+                        <h6>Velvet Red Dress</h6>
+                        <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus<br> augue nibh, at ullamcorper orci ullamcorper ut. Nisl tincidunt ege nullam non nisi est.<br> Pharetra et ultrices neque ornare. Ac felis donec<br> et odio pellentesque diam volutpat commodo sed.</p>
+                    </div>
+                    <div class="right-button mt-40">
+                        <a href="#" class="template-btn2 on2">Add To Cart <span>&rharu;</span></a>
+                    </div>
+
+                    <div class="tab-accordion picks-tab mt-70">
+                        <div class="tab">
+                            <ul>
+                                <li class="tab-one">Product Reviews</li>
+                                <li class="tab-second active">Product Details</li>
+                                <li class="tab-three">Size Chart</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="tab-content">
+                        <div class="tab-one-content lost">
+                            <div class="review-top d-flex justify-content-between mb-5">
+                                <div class="name"><h6>Cloth Materials</h6></div>
+                                <div class="ratings">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star diff-star"></i>
+                                    <i class="fa fa-star diff-star"></i>
+                                </div>
+                                <div class="time"><span>7 minutes ago</span></div>
+                            </div>
+                            <div class="review-bottom d-flex justify-content-between">
+                                <div class="paragraph">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus augue nibh, at ullamcorper orci ullamcorper ut.</p>
+                                </div>
+                                <div class="by"><span>By Nicole</span></div>
+                            </div>
+                        </div>
+                        <div class="tab-second-content lost active">
+                            <ul>
+                                <li>V-neck</li>
+                                <li>Zip fastening</li>
+                                <li>Sleeveless style</li>
+                                <li>Functional pockets</li>
+                                <li>Regular fit</li>
+                                <li>Just select your usual size</li>
+                            </ul>
+                        </div>
+                        <div class="tab-three-content lost">
+                            <table>
+                                <tr>
+                                    <th>Size</th>
+                                    <th colspan="2">Small</th>
+                                    <th>Medium</th>
+                                    <th>Large</th>
+                                </tr>
+                                <tr>
+                                    <td>To fit burst</td>
+                                    <td>33 / 84 cm</td>
+                                    <td>33 / 84 cm</td>
+                                    <td>33 / 84 cm</td>
+                                    <td>33 / 84 cm</td>
+                                </tr>
+                                <tr>
+                                    <td>To fit waist</td>
+                                    <td>33 / 84 cm</td>
+                                    <td>33 / 84 cm</td>
+                                    <td>33 / 84 cm</td>
+                                    <td>33 / 84 cm</td>
+                                </tr>
+                                <tr>
+                                    <td>To fit hips</td>
+                                    <td>33 / 84 cm</td>
+                                    <td>33 / 84 cm</td>
+                                    <td>33 / 84 cm</td>
+                                    <td>33 / 84 cm</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Banner End -->
+
+<!-- Related Section Starts -->
+<section class="related-section section-padding-top3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Related</h2>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-9">
+                <div class="related-slider owl-carousel">
+                    <div class="single-slide">
+                        <div class="single-cart-item active">
+                                <div class="single-cart-image">
+                                        <img class="image-item-01 item-active" src="assets/img/home-1/pick/pick-1.png" alt="">
+                                        <img class="image-item-02" src="assets/img/shop-page/item7.png" alt="">
+                                        <div class="image-dots">
+                                        <div class="dot-01"></div>
+                                        <div class="dot-02 active"></div>
+                                    </div>
+                                    </div>
+                                    <span class="love-icon"><i class="fa fa-heart"></i></span>
+
+                            <div class="single-cart-content">
+                                <div class="cart-content-left">
+                                    <ul class="cart-rating">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li class="diff-color"><i class="fa fa-star"></i></li>
+                                    </ul>
+                                    <h5>Belted Chino Trousers</h5>
+                                    <ul class="cart-size">
+                                        <li><span>xs</span></li>
+                                        <li class="active"><span>s</span></li>
+                                        <li><span>m</span></li>
+                                        <li><span>l</span></li>
+                                        <li><span>xl</span></li>
+                                    </ul>
+                                </div>
+
+                                <div class="cart-content-right">
+                                    <span class="current-price">$45.99</span>
+                                    <span class="old-price">$99.10</span>
+                                </div>
+                            </div>
+
+                            <div class="single-cart-button">
+                                <a href="#" class="cart-button floating-icon-1">add to cart</a>
+                                <a href="#" class="compare-button">compare</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-slide">
+                            <div class="single-cart-item">
+                                    <div class="single-cart-image">
+                                            <img class="image-item-01 item-active" src="assets/img/home-1/pick/pick-2.jpg" alt="">
+                                            <img class="image-item-02" src="assets/img/shop-page/item7.png" alt="">
+                                            <div class="image-dots">
+                                        <div class="dot-01"></div>
+                                        <div class="dot-02 active"></div>
+                                    </div>
+                                        </div>
+                                        <span class="love-icon"><i class="fa fa-heart"></i></span>
+        
+                                    <div class="single-cart-content">
+                                        <div class="cart-content-left">
+                                            <ul class="cart-rating">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li class="diff-color"><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <h5>Belted Chino Trousers</h5>
+                                            <ul class="cart-size">
+                                                <li><span>xs</span></li>
+                                                <li class="active"><span>s</span></li>
+                                                <li><span>m</span></li>
+                                                <li><span>l</span></li>
+                                                <li><span>xl</span></li>
+                                            </ul>
+                                        </div>
+        
+                                        <div class="cart-content-right">
+                                            <span class="current-price">$45.99</span>
+                                            <span class="old-price">$99.10</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="single-cart-button">
+                                        <a href="#" class="cart-button floating-icon-1">add to cart</a>
+                                        <a href="#" class="compare-button">compare</a>
+                                    </div>
+                                </div>
+                    </div>
+
+                    <div class="single-slide">
+                            <div class="single-cart-item">
+                                    <div class="single-cart-image">
+                                            <img class="image-item-01 item-active" src="assets/img/home-1/pick/pick-3.jpg" alt="">
+                                            <img class="image-item-02" src="assets/img/shop-page/item7.png" alt="">
+                                            <div class="image-dots">
+                                        <div class="dot-01"></div>
+                                        <div class="dot-02 active"></div>
+                                    </div>
+                                        </div>
+                                        <span class="love-icon"><i class="fa fa-heart"></i></span>
+        
+                                    <div class="single-cart-content">
+                                        <div class="cart-content-left">
+                                            <ul class="cart-rating">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li class="diff-color"><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <h5>Belted Chino Trousers</h5>
+                                            <ul class="cart-size">
+                                                <li><span>xs</span></li>
+                                                <li class="active"><span>s</span></li>
+                                                <li><span>m</span></li>
+                                                <li><span>l</span></li>
+                                                <li><span>xl</span></li>
+                                            </ul>
+                                        </div>
+        
+                                        <div class="cart-content-right">
+                                            <span class="current-price">$45.99</span>
+                                            <span class="old-price">$99.10</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="single-cart-button">
+                                        <a href="#" class="cart-button floating-icon-1">add to cart</a>
+                                        <a href="#" class="compare-button">compare</a>
+                                    </div>
+                                </div>
+                    </div>
+
+                    <div class="single-slide">
+                            <div class="single-cart-item">
+                                    <div class="single-cart-image">
+                                            <img class="image-item-01 item-active" src="assets/img/home-1/pick/pick-4.png" alt="">
+                                            <img class="image-item-02" src="assets/img/shop-page/item7.png" alt="">
+                                            <div class="image-dots">
+                                        <div class="dot-01"></div>
+                                        <div class="dot-02 active"></div>
+                                    </div>
+                                        </div>
+                                        <span class="love-icon"><i class="fa fa-heart"></i></span>
+        
+                                    <div class="single-cart-content">
+                                        <div class="cart-content-left">
+                                            <ul class="cart-rating">
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li class="diff-color"><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <h5>Belted Chino Trousers</h5>
+                                            <ul class="cart-size">
+                                                <li><span>xs</span></li>
+                                                <li class="active"><span>s</span></li>
+                                                <li><span>m</span></li>
+                                                <li><span>l</span></li>
+                                                <li><span>xl</span></li>
+                                            </ul>
+                                        </div>
+        
+                                        <div class="cart-content-right">
+                                            <span class="current-price">$45.99</span>
+                                            <span class="old-price">$99.10</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="single-cart-button">
+                                        <a href="#" class="cart-button floating-icon-1">add to cart</a>
+                                        <a href="#" class="compare-button">compare</a>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Related Section End -->
+
+<!-- Instagram Starts -->
+<section class="instagram-area">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title text-center">
+                    <h2>Follow Our Instagram</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 px-0">
+                <div class="instagram-slider owl-carousel">
+                    <div class="single-slide slide-1">
+                    </div>
+                    <div class="single-slide slide-2">
+                    </div>
+                    <div class="single-slide slide-3">
+                    </div>
+                    <div class="single-slide slide-4">
+                    </div>
+                    <div class="single-slide slide-5">
+                    </div>
+                    <div class="single-slide slide-6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Instagram End -->
+
+<!-- Footer Starts -->
+<footer class="footer-area">
+    <div class="footer-widget">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-widget widget widget_nav_menu">
+                        <h5 class="widget-title">help & information</h5>
+                        <ul>
+                            <li><a href="#">help</a></li>
+                            <li><a href="#">track order</a></li>
+                            <li><a href="#">delivery & returns</a></li>
+                            <li><a href="#">10% student discount</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-widget widget widget_nav_menu">
+                        <h5 class="widget-title">about us</h5>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">career at theshop</a></li>
+                            <li><a href="#">investors site</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-widget widget widget_nav_menu">
+                        <h5 class="widget-title">Customer Care</h5>
+                        <ul>
+                            <li><a href="#">gift card</a></li>
+                            <li><a href="#">size guide</a></li>
+                            <li><a href="#">terms & condition</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-widget widget">
+                        <h5 class="widget-title">newsletter</h5>
+                        <p>Sign up to Theshop newlettter for 10% <br>Discount code.</p>
+                        <form action="#" class="mt-4">
+                            <input type="email" class="" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address'" required>
+                            <button type="submit"> <span>&rharu;</span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 d-md-flex justify-content-between">
+                    <div class="copyright-logo align-self-center">
+                        <a href="index-2.html"><img src="assets/img/logo/logo2.png" alt=""></a>
+                    </div>
+                    <div class="copyright-content align-self-center text-center">
+                        &copy; Copyright Roberto Ferracini 2019 - made with <i class="fa fa-heart"></i> by <a href="http://zwin.io/" target="_blanc">Zwin</a>.
+                    </div>
+                    <div class="copyright-link align-self-center">
+                        <ul>
+                            <li><a href="#">instagram</a></li>
+                            <li><a href="#">facebook</a></li>
+                            <li><a href="#">twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer End -->
+
+
+<!-- back to top area start -->
+<div class="back-to-top">
+    <span>Back to top</span>
+</div>
+<!-- back to top area end -->
+
+
+    <!-- jquery -->
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <!-- popper -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- magnific popup -->
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <!-- wow -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- owl carousel -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- waypoint -->
+    <script src="assets/js/waypoints.min.js"></script>
+    <!-- counterup -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- imageloaded -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!-- isotope -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+
+    <script src="assets/js/jquery.datetimepicker.full.min.js"></script>
+
+    <script src="assets/js/countdown.js"></script>
+    <!-- slick -->
+    <script src="assets/js/slick.min.js"></script>
+     <!-- main js -->
+    <!-- Datepicker -->
+    <script src="assets/js/datepicker.min.js"></script>
+    <script src="assets/js/datepicker-en.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+</body>
+</html>
